@@ -177,5 +177,6 @@ qplot(interval, steps, data = intervalmeans2, facets = .~typeofday, geom = "path
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-11-1.png)\
+
 You can see that the individual has a noticeable peak around 8:00-9:00am on weekdays,
 while the step count is more consistent throughout the day on weekends.

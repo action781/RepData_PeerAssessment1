@@ -116,5 +116,6 @@ nacomplete$typeofday <- factor(weekdays(nacomplete$date) %in% wdays,
 intervalmeans2 <- aggregate(steps ~ interval + typeofday, data = nacomplete, FUN = mean)
 qplot(interval, steps, data = intervalmeans2, facets = .~typeofday, geom = "path")
 ```
+
 You can see that the individual has a noticeable peak around 8:00-9:00am on weekdays,
 while the step count is more consistent throughout the day on weekends.
